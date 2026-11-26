@@ -11,8 +11,7 @@ import os
 
 DATA_DIR = "data"
 
-# ⚠️  Change YOUR_MYSQL_PASSWORD to your actual MySQL root password
-db = Database("localhost", "root", "Forsci@0420", "new_schema")
+db = Database("localhost", "root", "Test", "new_schema")
 db.connect()
 db.create_table()
 
